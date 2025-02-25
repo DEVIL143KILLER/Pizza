@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f7f2;
+    
+  
+  }
+  
+  .outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 70%;
+    background-color: #f2f7f2;
+    background-image: url(
+      "../../assets/pizza.jpg");
+      background-repeat: no-repeat;
+      /* height: 100%; */
+      background-size: cover;
+      border-radius: 20px;  
+      margin-top: 100px;
+      margin-left: 30px;
+      position: fixed;
+      
+  }
+  
+  
+  
+  .login-container {
+    /* background-color: #ffffff; */
+    background-image: url("../../assets/5.jpg") ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    width: 40%;
+    background-size: cover;
+    
+    
+  
+  } 
+  
+  .login-box {
+
+    width: 100%;
+  }
+  
+
+  .login-form .form-group {
+    margin-top: 20px;
+
+  }
+  
+  #submibutton , #backbutton {
+    margin-top: 45px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+    color: black;
+    background-color: white;
+
+  }
+  
+  .error-message {
+    color: red;
+  }
+  .link-text {
+    cursor: pointer;
+    color: rgb(136, 248, 136);
+    text-decoration: none;
+    transition: 0.8s;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    /* background-image: radial-gradient(circle 759px at -6.7% 50%, rgba(80, 131, 73, 1) 0%, rgba(140, 209, 131, 1) 26.2%, rgba(178, 231, 170, 1) 50.6%, rgba(144, 213, 135, 1) 74.1%, rgba(75, 118, 69, 1) 100.3%); */
+    padding: 15px;
+    background-color: rgba(194, 186, 186, 0.671);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .right-panel {
+    text-align: center;
+  }
+  
+  #email , #Password {
+    border-radius: 10px;  
+  }
+
+  .form-group{
+  text-shadow: 2px 2px 2px aqua;
+  }
+  
+  .text-center{
+    color: white;
+  }
+
+  #submitbutton:hover{
+    background-color: rgb(35, 196, 35);
+    box-shadow: 2px 2px 5px 5px rgb(15, 121, 15);
+  }
+  #backbutton:hover{
+    background-color: rgb(238, 72, 72);
+    box-shadow: 0 0 5px 5px rgba(238, 72, 72, 0.596);
+  }
+
+  .link-text:hover{
+    background-color: rgb(35, 196, 35);
+    box-shadow: 0 0 5px 5px rgb(15, 121, 15);
+    color: black;
+  }
+
+  

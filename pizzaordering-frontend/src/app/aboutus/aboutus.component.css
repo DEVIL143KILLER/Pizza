@@ -1,0 +1,40 @@
+.a1{
+    text-align: center;
+    background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
+    padding: 5px;
+    width: 860px;
+    height: auto;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 10px double black ;
+    border-radius: 20px ;
+}
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(122, 108, 108, 0.534);
+    color: #13afb4;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-attachment: fixed;
+    padding-left: 10px;
+    padding-top:-5px;
+    text-shadow: 2px 2px 5px black;
+    width: 850px;
+    height: 500px;
+    border: 10px dotted black;
+  }
+  h1, h2 {
+    color: #d9534f;
+    text-shadow: 3px 3px 2px black;
+  }
+  ul {
+    list-style-type: circle;    
+    color: rgb(231, 164, 18);
+}
+  ul li {
+    margin: 5px 0;
+    padding: 10px;
+  }

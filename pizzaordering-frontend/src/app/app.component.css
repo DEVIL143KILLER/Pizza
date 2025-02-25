@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../assets/pizza\ home\ page.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -1%;
+    background-attachment: fixed;
+    height: 2000px;
+}
+.left {
+    width: 20%;
+    height: 80vh;
+    padding-left: 100px;
+    padding-top: 90px;
+    padding-right: 10px;
+
+    
+    /* filter: blur(2px); */
+
+}
+.right {
+    width: 80%;
+    height: 100vh;
+    
+}
+

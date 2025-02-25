@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="form">
+        <h1>
+            Add Pizza
+        </h1>
+        
+        <input type="text" class="box" placeholder="Product Name" [(ngModel)]="name">
+        <input type="text" class="box" placeholder="Product Price" [(ngModel)]="price">
+        <br />
+        <select [(ngModel)]="categoryId"  class="box" id="catid">
+            <option *ngFor="let category of catgoryList" [value]="category.cId">{{category.cName}}</option>
+           </select>
+        <input type="text" class="box" placeholder="Product Image" [(ngModel)]="pImage ">
+        <div class="text-center">
+            <!-- <button *ngIf="!isEdit" (click)="addProduct()" class="btn btn-primary" >Add</button>
+        <button *ngIf="isEdit" (click)="updateProduct()" class="btnn">Update</button> -->
+            <button id="add" (click)="addUpdateProudcut()" class="btn btn-primary">{{isEdit ? 'Update': 'Add'}}</button>
+
+        </div>
+    </div>
+</div>
